@@ -6,7 +6,7 @@ Senior Software Engineer
 
 Solution-oriented, and results-driven professional with 15+ years of experience designing software products, applying engineering principles, and implementing system enhancements with comprehensive knowledge of methodologies, theories, and research techniques. Strong foundation in object-oriented programming and design patterns with proven ability to troubleshoot and resolve complex issues via development lifecycle. Wide-spread experience in developing enterprise-level software in Modern C++ with a record of optimizing performance, scalability, and reliability.
 
-* 🌍  I'm based in Sacramento CA
+* 🌍  I'm based in Folsom CA
 * 🧠  I'm learning rust programming
 * 🤝  I'm open to collaborating on Projects
 
