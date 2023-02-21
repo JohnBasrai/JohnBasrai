@@ -6,12 +6,11 @@ Senior Software Engineer
 
 Solution-oriented, and results-driven professional with 15+ years of experience designing software products, applying engineering principles, and implementing system enhancements with comprehensive knowledge of methodologies, theories, and research techniques. Strong foundation in object-oriented programming and design patterns with proven ability to troubleshoot and resolve complex issues via development lifecycle. Wide-spread experience in developing enterprise-level software in Modern C++ with a record of optimizing performance, scalability, and reliability.
 
-* 🌍  I'm based in California
-* 🧠  I'm learning Rust programming
+* 🌍  I'm based in Sacramento CA
+* 🧠  I'm learning rust programming
 * 🤝  I'm open to collaborating on Projects
 
 ### Skills
-
 
 <p align="left">
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
