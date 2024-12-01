@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Senior Software Engineer
 ------------------------
 
-Solution-oriented, and results-driven professional with 15+ years of experience designing software products, applying engineering principles, and implementing system enhancements with comprehensive knowledge of methodologies, theories, and research techniques. Strong foundation in object-oriented programming and design patterns with proven ability to troubleshoot and resolve complex issues via development life-cycle. Wide-spread experience in developing enterprise-level software in Modern C++ & Rust with a record of optimizing performance, scalability, and reliability.
+Solution-oriented and results-driven professional with 15+ years of experience in software design, engineering, and system enhancement. Extensive expertise in applying engineering principles, methodologies, and research techniques to deliver innovative solutions. Strong foundation in object-oriented programming and design patterns, with a proven track record of troubleshooting and resolving complex issues throughout the software development lifecycle. Experienced in developing enterprise-level software using C, Modern C++, Rust, and Python, with a focus on optimizing performance, scalability, and reliability. Specializes in systems, backend, and embedded software development, consistently driving excellence in high-performance solutions.
 
 * 🌍  I'm based in Yuba City, CA
 * 🧠  I'm currently working on expanding my Cryptography & Rust programming knowledge
