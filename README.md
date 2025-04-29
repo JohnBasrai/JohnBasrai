@@ -13,6 +13,9 @@ Solution-oriented and results-driven professional with 15+ years of experience i
 ### What I'm Looking For
 I'm open to opportunities in **Rust** backend development, distributed systems, cryptography, and embedded systems.
 
+### Current Focus
+Building and refining RESTful APIs using Axum, experimenting with zero-knowledge proofs (ZKPs), and tuning async performance in **Rust**.
+
 ### Skills
  - **Languages:** Rust, Modern C++, Python, Java
  - **Frameworks & Libraries:** Axum, Rocket, Yew, SQLx, Diesel, Serde, Tonic (gRPC)
