@@ -11,7 +11,13 @@ Solution-oriented and results-driven professional with 15+ years of experience i
 * 🧠  I'm currently developing a RESTful backend using Rust, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project.
 * 🤝  I'm open to collaborating on Projects
 
+### What I'm Looking For
+I'm open to opportunities in Rust backend development, distributed systems, cryptography, and embedded systems.
+
 ### Skills
+- Languages: Rust, Modern C++, Python, Java
+- Tools: Git, Cargo, Docker Compose
+- Areas: Systems programming, Cryptography, Distributed Systems, API Design
 
 <p align="left">
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
