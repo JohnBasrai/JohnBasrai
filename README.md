@@ -4,11 +4,11 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Senior Software Engineer
 ------------------------
 
-Senior Software Development Engineer | Advanced Software Applications | Technical Leader | Advocate for Nuclear Energy.
-Solution-oriented and results-driven professional with 15+ years of experience in software design, engineering, and system enhancement. Extensive expertise in applying engineering principles, methodologies, and research techniques to deliver innovative solutions. Strong foundation in object-oriented programming and design patterns, with a proven track record of troubleshooting and resolving complex issues throughout the software development lifecycle. Experienced in developing enterprise-level software using Modern C++, Rust, and Python, with a focus on optimizing performance, scalability, and reliability. Currently working on WebAssembly (WASM) and front-end development, expanding expertise to deliver seamless and efficient user experiences. Specializes in systems, backend, and embedded software development, consistently driving excellence in high-performance solutions.
+Senior Software Engineer – Rust & AI | Advanced Software Applications | Technical Leader | Modern C++ Developer<br>
+Solution-oriented and results-driven professional with 15+ years of experience in software design, engineering, and system enhancement. Extensive expertise in applying engineering principles, methodologies, and research techniques to deliver innovative solutions. Strong foundation in object-oriented programming and design patterns, with a proven track record of troubleshooting and resolving complex issues throughout the software development lifecycle. Experienced in developing enterprise-level software using Modern C++, Rust, and Python, with a focus on optimizing performance, scalability, and reliability. Currently developing a RESTful backend using Rust, Axum, and Redis to further strengthen server-side development skills. Specializes in systems, backend, and embedded software development, consistently driving excellence in high-performance solutions.
 
 * 🌍  I'm based in Yuba City, CA
-* 🧠  I'm currently working on WebAssembly (WASM) and front-end development in Rust
+* 🧠  I'm currently developing a RESTful backend using Rust, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project.
 * 🤝  I'm open to collaborating on Projects
 
 ### Skills
@@ -32,14 +32,3 @@ Solution-oriented and results-driven professional with 15+ years of experience i
 
 <a href="http://www.github.com/JohnBasrai"><img src="https://github-readme-stats.vercel.app/api?username=JohnBasrai&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="JohnBasrai's GitHub stats" /></a>
 
-<b>Top Repositories</b>
-<!-- 
-<div width="100%" align="center">
-<a href="https://github.com/JohnBasrai/tumult" align="left">
-<img align="left" width="45%"
- src="https://github-readme-stats.vercel.app/api/pin/?username=JohnBasrai&repo=tumult&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
--->
-<div width="100%" align="center">
-<a href="https://github.com/JohnBasrai/asio-tutorial" align="left">
-<img align="left" width="45%"
- src="https://github-readme-stats.vercel.app/api/pin/?username=JohnBasrai&repo=asio-tutorial&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
