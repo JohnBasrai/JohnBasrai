@@ -1,23 +1,26 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is John Basrai
 ===================================================================================================================================
 
-Senior Software Engineer
+**Senior Rust Software Engineer**
 ------------------------
 
-Senior Software Engineer – Rust & AI | Advanced Software Applications | Technical Leader | Modern C++ Developer<br>
 Solution-oriented and results-driven professional with 15+ years of experience in software design, engineering, and system enhancement. Extensive expertise in applying engineering principles, methodologies, and research techniques to deliver innovative solutions. Strong foundation in object-oriented programming and design patterns, with a proven track record of troubleshooting and resolving complex issues throughout the software development lifecycle. Experienced in developing enterprise-level software using Modern C++, Rust, and Python, with a focus on optimizing performance, scalability, and reliability. Currently developing a RESTful backend using Rust, Axum, and Redis to further strengthen server-side development skills. Specializes in systems, backend, and embedded software development, consistently driving excellence in high-performance solutions.
 
 * 🌍  I'm based in Yuba City, CA
-* 🧠  I'm currently developing a RESTful backend using Rust, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project.
+* 🧠  I'm currently developing a RESTful backend using **Rust**, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project.
 * 🤝  I'm open to collaborating on Projects
 
 ### What I'm Looking For
-I'm open to opportunities in Rust backend development, distributed systems, cryptography, and embedded systems.
+I'm open to opportunities in **Rust** backend development, distributed systems, cryptography, and embedded systems.
 
 ### Skills
-- Languages: Rust, Modern C++, Python, Java
-- Tools: Git, Cargo, Docker Compose
-- Areas: Systems programming, Cryptography, Distributed Systems, API Design
+ - **Languages:** Rust, Modern C++, Python, Java
+ - **Frameworks & Libraries:** Axum, Rocket, Yew, SQLx, Diesel, Serde, Tonic (gRPC)
+ - **Tools:** Git, Cargo, Docker Compose, WebAssembly (WASM)
+ - **Databases & Caching:** PostgreSQL, Redis
+ - **Async & Networking:** Tokio, Futures, reqwest, Web-Sys
+ - **Areas:** Systems Programming, Distributed Systems, Cryptography, API Design, WebAssembly Frontend Development
+
 
 <p align="left">
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
