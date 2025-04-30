@@ -3,11 +3,16 @@
 **Senior Rust Software Engineer**
 ------------------------
 
-Solution-oriented and results-driven professional with 15+ years of experience in software design, engineering, and system enhancement. Extensive expertise in applying engineering principles, methodologies, and research techniques to deliver innovative solutions. Strong foundation in object-oriented programming and design patterns, with a proven track record of troubleshooting and resolving complex issues throughout the software development lifecycle. Experienced in developing enterprise-level software using Modern C++, Rust, and Python, with a focus on optimizing performance, scalability, and reliability. Currently developing a RESTful backend using Rust, Axum, and Redis to further strengthen server-side development skills. Specializes in systems, backend, and embedded software development, consistently driving excellence in high-performance solutions.
+## 👨‍💻 About Me
 
-* 🌍  I'm based in Yuba City, CA
-* 🧠  I'm currently developing a RESTful backend using **Rust**, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project.
-* 🤝  I'm open to collaborating on Projects
+Solution-oriented and results-driven software engineer with 15+ years of experience in systems and backend development, currently specializing in **Rust**. Proven expertise in designing high-performance, scalable, and reliable software using **Rust**, **Modern C++**, and **Python**. Adept at applying engineering principles, object-oriented design, and advanced problem-solving techniques to deliver robust enterprise solutions.
+
+Currently building a **RESTful backend in Rust using Axum and Redis**, with a strong emphasis on async execution, observability, and system resilience. Also open to systems programming in **Rust** — especially for **Linux CLI tools**, where Rust’s performance and safety shine. Known for troubleshooting complex issues across the software lifecycle and consistently delivering production-grade solutions in embedded, backend, and distributed system domains.
+
+- 🌍 I'm based in Yuba City, CA  
+- 🧠 I'm currently developing a RESTful backend using **Rust**, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project  
+- 🤝 I'm open to collaborating on projects — especially in Rust, backend systems, or CLI tool development
+
 
 ### What I'm Looking For
 I'm open to opportunities in **Rust** backend development, distributed systems, cryptography, and embedded systems.
@@ -110,7 +115,6 @@ Building and refining RESTful APIs using Axum, experimenting with zero-knowledge
 
 ### Badges
 
-<b>My GitHub Stats</b>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JohnBasrai&layout=compact&hide_border=true&bg_color=1c1917&title_color=0891b2&text_color=ffffff&langs_count=6&hide=html,css,javascript)
 
-<a href="http://www.github.com/JohnBasrai"><img src="https://github-readme-stats.vercel.app/api?username=JohnBasrai&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="JohnBasrai's GitHub stats" /></a>
-
+![Rust](https://img.shields.io/badge/Code-Rust-orange?logo=rust)
