@@ -16,13 +16,18 @@ I'm open to opportunities in **Rust** backend development, distributed systems, 
 Building and refining RESTful APIs using Axum, experimenting with zero-knowledge proofs (ZKPs), and tuning async performance in **Rust**.
 
 ### Skills
- - **Languages:** Rust, Modern C++, Python, Java
- - **Frameworks & Libraries:** Axum, Rocket, Yew, SQLx, Diesel, Serde, Tonic (gRPC)
- - **Tools:** Git, Cargo, Docker Compose, WebAssembly (WASM)
- - **Databases & Caching:** PostgreSQL, Redis
- - **Async & Networking:** Tokio, Futures, reqwest, Web-Sys
  - **Areas:** Systems Programming, Distributed Systems, Cryptography, API Design, WebAssembly Frontend Development
-
+ - **Async & Networking:** Tokio, Futures, reqwest, Web-Sys
+ - **Cloud/Infrastructure:** AWS (Dev/Deploy), IronBank Compliance
+ - **Databases & Caching:** PostgreSQL, Redis
+ - **DevOps:** Docker, Docker Compose, Jenkins, GitLab CI/CD
+ - **Embedded & Systems:** MCOS, VxWorks, QNX, Linux, Mercury RTOS, Real-Time Systems, DMA/RACEway Fabrics
+ - **Frameworks/Tools:** Rocket, Axum Yew, Diesel, RESTful APIs, gRPC, Apache Thrift, Boost, STL, SQLx, Serde, Tonic (gRPC)
+ - **Languages:** Rust, C, Modern C++, Java, Python, SQL, WebAssembly (WASM)
+ - **Methodologies:**  Agile, Scrum, Kanban, Test-Driven Development, Pair Programming, Asynchronous Development, Remote Collaboration
+ - **Monitoring:** Prometheus, Loki, Grafana
+ - **Networking:** TCP/IP, UDP, WebSocket, Distributed Systems, System Architecture
+ - **Tools:** Git, Cargo, Docker, Docker Compose, WebAssembly (WASM)
 
 <p align="left">
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
