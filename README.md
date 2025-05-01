@@ -15,10 +15,11 @@ Currently building a **RESTful backend in Rust using Axum and Redis**, with a st
 
 
 ### What I'm Looking For
-I'm open to opportunities in **Rust** backend development, distributed systems, cryptography, and embedded systems.
+I'm open to opportunities in Rust-based backend systems, distributed architectures, cryptographic protocols (e.g., ZKPs), and embedded software.
 
 ### Current Focus
 Building and refining RESTful APIs using Axum, experimenting with zero-knowledge proofs (ZKPs), and tuning async performance in **Rust**.
+Designing gRPC-based systems for authentication and high-throughput data pipelines in Rust.
 
 ## 🛠️ Skills Overview
 
@@ -46,6 +47,7 @@ Building and refining RESTful APIs using Axum, experimenting with zero-knowledge
 - WebSocket
 - TCP/IP, UDP
 - Web-Sys
+- RTP (Real-time Transport Protocol)
 
 ### Cloud & Infrastructure
 - AWS (Dev/Deploy)
@@ -111,10 +113,20 @@ Building and refining RESTful APIs using Axum, experimenting with zero-knowledge
 
 ### Socials
 
-<p align="left"> <a href="https://discord.com/users/JohnBasrai" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.github.com/JohnBasrai" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/JohnBasrai" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnbasrai/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/JohnBasrai)
 
-### Badges
+---
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JohnBasrai&layout=compact&hide_border=true&bg_color=1c1917&title_color=0891b2&text_color=ffffff&langs_count=6&hide=html,css,javascript)
+## 📊 GitHub Stats
 
-![Rust](https://img.shields.io/badge/Code-Rust-orange?logo=rust)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JohnBasrai&layout=compact&theme=default)
+
+---
+
+## 🏅 Badges
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
