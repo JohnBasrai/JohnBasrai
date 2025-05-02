@@ -13,6 +13,9 @@ Currently building a **RESTful backend in Rust using Axum and Redis**, with a st
 - 🧠 I'm currently developing a RESTful backend using **Rust**, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project  
 - 🤝 I'm open to collaborating on projects — especially in Rust, backend systems, or CLI tool development
 
+<br> **Project Spotlight**:  
+[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart): Production-ready Axum + Redis API template with Redis, full integration tests, and clean async architecture
+![Last Commit](https://img.shields.io/github/last-commit/JohnBasrai/axum-quickstart?style=flat-square)
 
 ### What I'm Looking For
 I'm open to opportunities in Rust-based backend systems, distributed architectures, cryptographic protocols (e.g., ZKPs), and embedded software.
