@@ -99,7 +99,7 @@ Designing gRPC-based systems for authentication and high-throughput data pipelin
 - Test-Driven Development
 - Pair Programming
 - Remote Collaboration
-- Asynchronous Development
+- Asynchronous Development (remote-first / remote-only)
 
 
 <p align="left">
