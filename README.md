@@ -21,86 +21,90 @@ I'm open to opportunities in Rust-based backend systems, distributed architectur
 Building and refining RESTful APIs using Axum, experimenting with zero-knowledge proofs (ZKPs), and tuning async performance in **Rust**.
 Designing gRPC-based systems for authentication and high-throughput data pipelines in Rust.
 
-## 🛠️ Skills Overview
+Currently focused on Rust-based backend and distributed system development.
 
-### Areas of Expertise
-- Systems Programming
-- Distributed Systems
-- Cryptography
-- API Design
-- Real-Time Systems
-- WebAssembly Frontend Development
+### 🛠️ Skills Overview
 
-### Languages & Libraries
-- Rust
-- Modern C++ (STL, Boost)
-- C
-- Java
-- Python
-- SQL
-- WebAssembly (WASM)
+**Areas of Expertise**  
+- Rust-based Systems Programming  
+- Distributed Systems  
+- API Design  
+- Real-Time Processing  
+- Cryptography  
+- WebAssembly Frontend Development  
 
-### Async & Networking
-- Tokio
-- Futures
-- reqwest
-- WebSocket
-- TCP/IP, UDP
-- Web-Sys
-- RTP (Real-time Transport Protocol)
+**Languages & Libraries**  
+- Rust (since 2022)  
+- Modern C++ (STL, Boost)  
+- C  
+- Python  
+- Java  
+- SQL  
+- WebAssembly (WASM)  
 
-### Cloud & Infrastructure
-- AWS (Dev/Deploy)
-- IronBank Compliance
+**Async & Networking**  
+- Tokio  
+- Futures  
+- reqwest  
+- WebSocket  
+- TCP/IP  
+- UDP  
+- RTP (Real-time Transport Protocol)  
+- Web-Sys  
 
-### Databases & Caching
-- PostgreSQL
-- Redis
-- SQLx
-- Diesel
+**Cloud & Infrastructure**  
+- AWS (Dev/Deploy)  
+- IronBank container hardening  
 
-### DevOps & CI/CD
-- Jenkins
-- GitLab CI/CD
-- Docker & Docker Compose *(see Tools)*
+**Databases & Caching**  
+- PostgreSQL  
+- Redis  
+- SQLx  
+- Diesel  
 
-### Frameworks & APIs
-- Axum
-- Rocket
-- Yew
-- RESTful APIs
-- gRPC (Tonic)
-- Apache Thrift
-- Serde
+**DevOps & CI/CD**  
+- Docker  
+- Docker Compose  
+- GitLab CI/CD  
+- Jenkins  
 
-### Embedded & OS Platforms
-- MCOS
-- VxWorks
-- QNX
-- Linux
-- Mercury RTOS
-- DMA/RACEway Fabrics
+**Frameworks & APIs**  
+- Axum  
+- Rocket  
+- Actix  
+- Yew  
+- RESTful APIs  
+- gRPC (Tonic)  
+- Apache Thrift  
+- Serde  
 
-### Monitoring & Observability
-- Prometheus
-- Loki
-- Grafana
+**Embedded & OS Platforms**  
+- Linux  
+- MCOS  
+- VxWorks  
+- QNX  
+- Mercury RTOS  
+- DMA/RACEway Fabrics  
 
-### Tools
-- Git
-- Cargo
-- Docker
-- Docker Compose
+**Monitoring & Observability**  
+- Prometheus  
+- Loki  
+- Grafana  
 
-### Development Methodologies
-- Agile
-- Scrum
-- Kanban
-- Test-Driven Development
-- Pair Programming
-- Remote Collaboration
-- Asynchronous Development (remote-first / remote-only)
+**Tools**  
+- Git  
+- Cargo  
+- Docker  
+- Docker Compose  
 
+**Development Methodologies**  
+- Agile  
+- Scrum  
+- Kanban  
+- Test-Driven Development  
+- Pair Programming  
+- Remote Collaboration  
+- Asynchronous Development *(remote-first / remote-only)*
 
 <p align="left">
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
