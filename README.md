@@ -21,7 +21,8 @@ I'm open to opportunities in Rust-based backend systems, distributed architectur
 Building and refining RESTful APIs using Axum, experimenting with zero-knowledge proofs (ZKPs), and tuning async performance in **Rust**.
 Designing gRPC-based systems for authentication and high-throughput data pipelines in Rust.
 
-💼 I'm open to full-time Rust backend roles. The best way to contact me is via [LinkedIn](https://www.linkedin.com/in/johnbasrai).
+💼 Open to full-time Rust backend roles or select consulting engagements.<br>
+The best way to contact me is via [LinkedIn](https://www.linkedin.com/in/johnbasrai).
 
 Currently focused on Rust-based backend and distributed system development.
 
