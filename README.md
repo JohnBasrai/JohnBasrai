@@ -7,22 +7,27 @@
 
 Solution-oriented and results-driven software engineer with 15+ years of experience in systems and backend development, currently specializing in **Rust**. Proven expertise in designing high-performance, scalable, and reliable software using **Rust**, **Modern C++**, and **Python**. Adept at applying engineering principles, object-oriented design, and advanced problem-solving techniques to deliver robust enterprise solutions.
 
-Currently building a **RESTful backend in Rust using Axum and Redis**, with a strong emphasis on async execution, observability, and system resilience. Also open to systems programming in **Rust** — especially for **Linux CLI tools**, where Rust’s performance and safety shine. Known for troubleshooting complex issues across the software lifecycle and consistently delivering production-grade solutions in embedded, backend, and distributed system domains.
+I’m currently developing a full-stack app with Rocket, Postgres, and Yew in my **[cr8s](https://github.com/JohnBasrai/cr8s)** project.
+The frontend is a Yew/WebAssembly SPA front-end. I have a strong emphasis on async execution, observability, and system resilience. Also open to systems programming in **Rust** — especially for **Linux CLI tools**, where Rust’s performance and safety shine. Known for troubleshooting complex issues across the software lifecycle and consistently delivering production-grade solutions in embedded, backend, and distributed system domains.
 
-- 🌍 I'm based in Yuba City, CA  
-- 🧠 I'm currently developing a RESTful backend using **Rust**, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project  
+- 🌍 I'm based in Yuba City, CA
+- 🧠 Currently building a Rocket + Postgres REST backend with a Yew/WebAssembly SPA front-end … See the **[cr8s](https://github.com/JohnBasrai/cr8s)** + **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)** stack
+- 🧠 Also worked on a RESTful backend using **Rust**, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project  
 - 🤝 I'm open to collaborating on projects — especially in Rust, backend systems, or CLI tool development
 
 <br> **Project Spotlight**:  
-[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart): Production-ready Axum + Redis API template with Redis, full integration tests, and clean async architecture
-![Last Commit](https://img.shields.io/github/last-commit/JohnBasrai/axum-quickstart?style=flat-square)
+| Repo                                                                 | Highlights                                                       |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **[cr8s](https://github.com/JohnBasrai/cr8s)**                       | Rocket + Postgres backend  •  Docker-first dev env & CI          |
+| **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | Yew/WebAssembly SPA  •  Live-reload, Playwright e2e tests        |
+| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Alternative Axum/Tokio REST template with full integration tests |
+| **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**   | gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**  |
 
 ### What I'm Looking For
 I'm open to opportunities in Rust-based backend systems, distributed architectures, cryptographic protocols (e.g., ZKPs), and embedded software.
 
 ### Current Focus
-Building and refining RESTful APIs using Axum, experimenting with zero-knowledge proofs (ZKPs), and tuning async performance in **Rust**.
-Designing gRPC-based systems for authentication and high-throughput data pipelines in Rust.
+Full-stack Rust: hardening a Rocket + Yew micro-SaaS, adding gRPC services with tonic, and expanding Playwright tests.
 
 💼 Open to full-time Rust backend roles or select consulting engagements.<br>
 The best way to contact me is via [LinkedIn](https://www.linkedin.com/in/johnbasrai).
