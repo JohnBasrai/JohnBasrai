@@ -54,47 +54,37 @@ Currently focused on Rust-based backend and distributed system development.
 
 **Languages & Libraries**  
 - Rust (since 2022)  
-- Modern C++ (STL, Boost)  
-- C  
+- C / Modern C++ (STL, Boost)
 - Python  
 - Java  
 - SQL  
 - WebAssembly (WASM)  
 
 **Async & Networking**  
-- Tokio  
-- Futures  
+- Tokio / Async / Futures  
 - reqwest  
 - WebSocket  
-- TCP/IP  
-- UDP  
+- TCP/IP / UDP  
 - RTP (Real-time Transport Protocol)  
 - Web-Sys  
 
 **Cloud & Infrastructure**  
-- AWS (Dev/Deploy)  
-- IronBank container hardening  
+- AWS (Dev/Deploy)
+- IronBank container hardening
 
 **Databases & Caching**  
-- PostgreSQL  
-- Redis  
-- SQLx  
-- Diesel  
+- PostgreSQL / Redis / SQLx / Diesel
 
 **End-to-End Testing**  
  - Playwright - E2E browser automation and UI testing 
 
 **DevOps & CI/CD**  
-- Docker  
-- Docker Compose  
+- Docker / Docker Compose
 - GitLab CI/CD, GitHub Actions
 - Jenkins  
 
 **Frameworks & APIs**  
-- Axum  
-- Rocket  
-- Actix  
-- Yew  
+- Axum / Rocket / Actix / Yew
 - RESTful APIs  
 - gRPC (Tonic)  
 - Apache Thrift  
@@ -119,14 +109,12 @@ Currently focused on Rust-based backend and distributed system development.
 - Docker  
 - Docker Compose  
 
-**Development Methodologies**  
-- Agile  
-- Scrum  
-- Kanban  
-- Test-Driven Development  
-- Pair Programming  
-- Remote Collaboration  
-- Asynchronous Development *(remote-first / remote-only)*
+**🧠 Work Habits & Culture Fit**
+
+- Agile / Scrum / Kanban
+- Test-Driven Development (TDD)
+- Pair Programming & Remote Collaboration
+- Asynchronous Communication (remote-first / remote-only)
 
 ### 🔧 Recent Highlights
 
