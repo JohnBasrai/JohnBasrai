@@ -24,10 +24,10 @@ The frontend is a Yew/WebAssembly SPA front-end. I have a strong emphasis on asy
 | **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**   | gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**  |
 
 ### What I'm Looking For
-I'm open to opportunities in Rust-based backend systems, distributed architectures, cryptographic protocols (e.g., ZKPs), and embedded software.
+Open to roles in Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms.
 
 ### Current Focus
-Full-stack Rust: hardening a Rocket + Yew micro-SaaS, adding gRPC services with tonic, and expanding Playwright tests.
+Currently hardening a Rocket + Yew micro-SaaS, integrating gRPC with Tonic, and expanding Playwright-based E2E coverage.
 
 💼 Open to full-time Rust backend roles or select consulting engagements.<br>
 The best way to contact me is via [LinkedIn](https://www.linkedin.com/in/johnbasrai).
