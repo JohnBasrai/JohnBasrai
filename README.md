@@ -34,6 +34,14 @@ The best way to contact me is via [LinkedIn](https://www.linkedin.com/in/johnbas
 
 Currently focused on Rust-based backend and distributed system development.
 
+<p align="left">
+<a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
+<a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" width="36" height="36" alt="Rust" /></a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>
+<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
+<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
+</p>
+
 ### 🛠️ Skills Overview
 
 **Areas of Expertise**  
@@ -73,10 +81,13 @@ Currently focused on Rust-based backend and distributed system development.
 - SQLx  
 - Diesel  
 
+**End-to-End Testing**  
+ - Playwright - E2E browser automation and UI testing 
+
 **DevOps & CI/CD**  
 - Docker  
 - Docker Compose  
-- GitLab CI/CD  
+- GitLab CI/CD, GitHub Actions
 - Jenkins  
 
 **Frameworks & APIs**  
@@ -117,13 +128,11 @@ Currently focused on Rust-based backend and distributed system development.
 - Remote Collaboration  
 - Asynchronous Development *(remote-first / remote-only)*
 
-<p align="left">
-<a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
-<a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" width="36" height="36" alt="Rust" /></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>
-<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
-</p>
+### 🔧 Recent Highlights
+
+- Added **Playwright-powered manual E2E test suite** for a fullstack Rust/WASM application
+- Enhanced **GitHub Actions workflows** with `workflow_dispatch`, conditional steps, and Docker service orchestration
+- Refined **Docker-based local development** for rapid iteration and frontend/backend parity
 
 
 ### Socials
