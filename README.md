@@ -1,9 +1,9 @@
-# John Basrai
+# <img src="https://www.rust-lang.org/logos/rust-logo-32x32.png" alt="Rust" width="24" valign="middle" /> John Basrai
 
-**Senior Rust Software Engineer**
-------------------------
+**Senior Rust Software Engineer**  
+*Backend · Distributed Systems · WASM · CI/CD · E2E Testing*
 
-## 👨‍💻 About Me
+## <img src="https://www.rust-lang.org/logos/rust-logo-32x32.png" alt="Rust" width="24" valign="middle" /> About Me
 
 Solution-oriented and results-driven software engineer with 15+ years of experience in systems and backend development, currently specializing in **Rust**. Proven expertise in designing high-performance, scalable, and reliable software using **Rust**, **Modern C++**, and **Python**. Adept at applying engineering principles, object-oriented design, and advanced problem-solving techniques to deliver robust enterprise solutions.
 
