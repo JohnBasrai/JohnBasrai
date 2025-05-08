@@ -129,6 +129,13 @@ Currently focused on Rust-based backend and distributed system development.
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/JohnBasrai)
 
 ---
+## 🛠️ Featured Tools
+
+**Rust Dev Container CI**
+
+[![rust-dev-tools CI](https://github.com/JohnBasrai/rust-dev-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnBasrai/rust-dev-tools)
+
+---
 
 ## 🏅 Badges
 
