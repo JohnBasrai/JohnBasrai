@@ -133,7 +133,7 @@ Currently focused on Rust-based backend and distributed system development.
 
 **Rust Dev Container CI**
 
-[![rust-dev-tools CI](https://github.com/JohnBasrai/rust-dev-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnBasrai/rust-dev-tools)
+[![rust-base-containers CI](https://github.com/JohnBasrai/rust-base-containers/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnBasrai/rust-base-containers)
 
 ---
 
