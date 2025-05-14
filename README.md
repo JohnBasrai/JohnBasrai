@@ -143,6 +143,7 @@ Currently focused on Rust-based backend and distributed system development.
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![CI](https://img.shields.io/badge/GitHub%20Actions-CI-blue?logo=github-actions&logoColor=white&style=for-the-badge)
 
 ## 🤝 Let's Connect
 
