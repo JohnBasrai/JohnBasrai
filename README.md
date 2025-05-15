@@ -7,8 +7,7 @@
 
 Solution-oriented and results-driven software engineer with 15+ years of experience in systems and backend development, currently specializing in **Rust**. Proven expertise in designing high-performance, scalable, and reliable software using **Rust**, **Modern C++**, and **Python**. Adept at applying engineering principles, object-oriented design, and advanced problem-solving techniques to deliver robust enterprise solutions.
 
-I’m currently developing a full-stack app with Rocket, Postgres, and Yew in my **[cr8s](https://github.com/JohnBasrai/cr8s)** project.
-The frontend is a Yew/WebAssembly SPA front-end. I have a strong emphasis on async execution, observability, and system resilience. Also open to systems programming in **Rust** — especially for **Linux CLI tools**, where Rust’s performance and safety shine. Known for troubleshooting complex issues across the software lifecycle and consistently delivering production-grade solutions in embedded, backend, and distributed system domains.
+I’m currently building a full-stack Rust app across two coordinated repos: cr8s (backend with Rocket + Postgres) and cr8s-fe (Yew/WebAssembly SPA). The frontend manages its own Docker-first orchestration and integrates with CI-verified Playwright E2E tests. I emphasize async execution, observability, and system resilience—especially in distributed or embedded domains. I’m also open to systems programming in Rust, including Linux CLI tools, where performance and safety are critical. Known for debugging complex issues and delivering production-grade solutions across the stack.
 
 - 🌍 I'm based in Yuba City, CA
 - 🧠 Currently building a Rocket + Postgres REST backend with a Yew/WebAssembly SPA front-end … See the **[cr8s](https://github.com/JohnBasrai/cr8s)** + **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)** stack
@@ -86,7 +85,8 @@ Currently focused on Rust-based backend and distributed system development.
 **Frameworks & APIs**  
 - Axum / Rocket / Actix / Yew
 - RESTful APIs  
-- gRPC (Tonic)  
+- gRPC (Tonic)
+- GraphQL
 - Apache Thrift  
 - Serde  
 
