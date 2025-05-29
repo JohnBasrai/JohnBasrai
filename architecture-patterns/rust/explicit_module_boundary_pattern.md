@@ -1,5 +1,12 @@
 # Explicit Module Boundary Pattern (EMBP)
 
+---
+**Author:** John Basrai  
+**Created:** May 28 2025
+**Last Updated:** May 2025  
+**License:** CC BY 4.0 (Creative Commons Attribution)
+---
+
 ## Overview
 The **Module Boundary Pattern (EMBP)** (also called **Gateway Module Pattern**) is a Rust architectural pattern that uses `mod.rs`, `lib.rs` or `main.rs` files as explicit gateways to control module boundaries and dependencies.
 
