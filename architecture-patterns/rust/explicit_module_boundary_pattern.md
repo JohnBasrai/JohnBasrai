@@ -1,6 +1,6 @@
 # Explicit Module Boundary Pattern (EMBP)
 
-*© May 28, 2025 John Basrai. This work is licensed under CC BY 4.0*
+*© May 2025 John Basrai. This work is licensed under CC BY 4.0*
 
 ## Overview
 The **Module Boundary Pattern (EMBP)** (also called **Gateway Module Pattern**) is a Rust architectural pattern that uses `mod.rs`, `lib.rs` or `main.rs` files as explicit gateways to control module boundaries and dependencies.
@@ -32,12 +32,12 @@ pub use submodule_b::{AnotherPublicType};
 
 **The `mod.rs` defines the ENTIRE public interface** - if it's not in `mod.rs`, it's not public.
 
-### 3. Import Patterns
+Let's look at the Import Patterns table again:
 
 | Context                | Pattern                      | Example                         |
 |------------------------|------------------------------|---------------------------------|
-| **Binary Entry Point** | `super::module::Symbol`      | `use super::server::run;`       |
-| **Sibling to Sibling** | `super::sibling::Symbol`     | `use super::auth::Credentials;` |
+| **Binary Entry Point** | `super::Symbol`      | `use super::{run, init};`       |
+| **Sibling to Sibling** | `super::Symbol`          | `use super::Credentials;`   |
 | **External Module**    | `crate::module::Symbol`      | `use crate::domain::AppUser;`   |
 | **Binary to Library**  | `crate_name::module::Symbol` | `use myapp::domain::AppUser;`   |
 
@@ -65,7 +65,7 @@ For binary crates (`src/bin/name/`) where you want to use EMBP, the entry point 
 // Dual role: entry point + gateway
 
 mod diagnostics;
-mod server;
+mod server; 
 mod server_cli_args;
 
 // Gateway exports
@@ -81,15 +81,13 @@ async fn main() -> Result<(), anyhow::Error> {
 ## Benefits
 
 1. **Explicit Dependencies** - All inter-module dependencies visible in `mod.rs`
-2. **Controlled Boundaries** - Clear separation between public API and internals
+2. **Controlled Boundaries** - Clear separation between public API and internals  
 3. **Refactoring Safety**    - Changes to internals don't break external consumers
 4. **Complete Internal Refactoring Freedom** - Rename files, reorganize modules, move code around within a module without breaking any external code. Only need to update the `mod.rs` gateway, not hunt down imports throughout the codebase
 5. **Eliminates Brittle Deep Imports** - Siblings access each other through gateways using simple `super::Symbol` paths instead of fragile direct file access. When internal structure changes, only the gateway needs updating
 6. **Documentation**         - Gateway files (`mod.rs`, `main.rs`, `lib.rs`) serve as module documentation
-7. **Layered Architecture**  - Natural enforcement of architectural layers
-8. **Binary Organization**   - Clean separation between entry point logic and implementation
-
-**Note:** While EMBP theoretically supports deeper module hierarchies (e.g., `crate::domain::user::profile::Symbol`), this pattern has been primarily tested and validated with single-level gateway access patterns.
+6. **Layered Architecture**  - Natural enforcement of architectural layers
+7. **Binary Organization**   - Clean separation between entry point logic and implementation
 
 ## Example Structure
 
@@ -98,7 +96,7 @@ src/
 ├── domain/
 │   ├── mod.rs          ← Gateway: defines public domain API
 │   ├── user.rs         ← Sibling: user logic
-│   ├── auth.rs         ← Sibling: auth logic
+│   ├── auth.rs         ← Sibling: auth logic  
 │   └── cache.rs        ← Sibling: cache logic
 ├── repository/
 │   ├── mod.rs          ← Gateway: defines public repository API
@@ -125,7 +123,7 @@ For simple binaries (3-5 modules), consider **standard Rust patterns** instead:
 // src/bin/server/main.rs - Simple entry point
 mod server;
 
-#[tokio::main]
+#[tokio::main] 
 async fn main() -> Result<(), anyhow::Error> {
     server::run().await
 }
@@ -155,9 +153,21 @@ use crate::domain::user::UserInternal;
 ```
 
 ✅ **Use the Gateway**
-```rust
+```rust  
 // DO: Access through public API
 use crate::domain::User;
+```
+
+❌ **Drilling Past Gateways**
+```rust
+// DON'T: Bypass intermediate gateways to reach implementation files
+use crate::domain::user::profile::settings::DisplayPreference;
+```
+
+✅ **Let Gateways Hoist Symbols**
+```rust
+// DO: Access symbols hoisted up by gateways
+use crate::domain::DisplayPreference;
 ```
 
 ❌ **Leaky Abstractions**
@@ -168,15 +178,21 @@ pub fn get_user() -> InternalUserType { }
 
 ✅ **Clean Boundaries**
 ```rust
-// DO: Only public types in public signatures
+// DO: Only public types in public signatures  
 pub fn get_user() -> User { }
 ```
+
+## Pattern Limitations
+
+**⚠️ Convention-Based, Not Enforced:** EMBP relies on team discipline rather than compiler enforcement. Internal items must be `pub` for gateways to re-export them, which means external code *can* bypass gateways and access internals directly. The pattern's benefits depend on following the convention consistently.
+
+**Mitigation:** Use code reviews, linting rules, or team guidelines to catch gateway bypassing. Consider `pub(crate)` for items that should only be visible within the current crate. Custom tooling could be developed to automatically detect and flag imports that bypass `mod.rs` gateways.
 
 ## Implementation Checklist
 
 - [ ] Each `mod.rs` has explicit `mod` declarations for all submodules
 - [ ] Each `mod.rs` has clear separation of internal `use` vs public `pub use`
-- [ ] Sibling modules import from each other using `super::`
+- [ ] Sibling modules import from each other using `super::` 
 - [ ] External modules import through `crate::module::`
 - [ ] No direct imports that bypass `mod.rs` gateways
 - [ ] Public APIs only expose public types, never internals
@@ -192,13 +208,13 @@ pub fn get_user() -> User { }
 - Teams needing explicit dependency management
 
 ❌ **Overkill for:**
-- Single-file applications
+- Single-file applications  
 - Prototypes
 - Very simple projects with minimal modules
 - Simple binary crates (3-5 modules)
 
 ---
 
-*Pattern Name: **Explicit Module Boundary Pattern (EMBP)** / **Gateway Module Pattern***<br>
-*Acronym: **EMBP***<br>
-*Tested with: Rust edition 2021*<br>
+*Pattern Name: **Explicit Module Boundary Pattern (EMBP)** / **Gateway Module Pattern***  
+*Acronym: **EMBP***  
+*Tested with: Rust edition 2021*
