@@ -1,6 +1,6 @@
 # Explicit Module Boundary Pattern (EMBP)
 
-*© May 2025 John Basrai. This work is licensed under CC BY 4.0*
+*Documented by John Basrai, May 2025. This work is licensed under CC BY 4.0*
 
 ## Overview
 
