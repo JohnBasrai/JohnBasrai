@@ -225,9 +225,6 @@ pub fn get_user() -> User { }
 
 These rules focus on defining and organizing the module boundary file itself:
 
-- [ ] Each `mod.rs` has explicit `mod` declarations for all submodules
-- [ ] Each `mod.rs` has clear separation of internal `use` vs public `pub use`
-
 ### 📁 `mod.rs` Structure
 
 - [ ] Each `mod.rs` has explicit `mod` declarations for all submodules
