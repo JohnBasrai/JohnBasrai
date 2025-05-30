@@ -199,6 +199,6 @@ pub fn get_user() -> User { }
 
 ---
 
-*Pattern Name: **Explicit Module Boundary Pattern (EMBP)** / **Gateway Module Pattern***
-*Acronym: **EMBP***
-*Tested with: Rust edition 2021*
+*Pattern Name: **Explicit Module Boundary Pattern (EMBP)** / **Gateway Module Pattern***<br>
+*Acronym: **EMBP***<br>
+*Tested with: Rust edition 2021*<br>
