@@ -131,7 +131,7 @@ Currently focused on Rust-based backend and distributed system development.
 
 ## 📋 Architecture & Patterns
 
-**[Explicit Module Boundary Pattern (EMBP)](https://github.com/JohnBasrai/JohnBasrai/blob/main/architecture-patterns/rust/explicit_module_boundary_pattern.md)** 
+**[Explicit Module Boundary Pattern (EMBP)](https://github.com/JohnBasrai/architecture-patterns/blob/main/rust/embp.md)** 
 
 - A Rust architectural pattern I've documented that uses gateway files (`mod.rs`, `lib.rs`, `main.rs`) to create explicit module boundaries and controlled dependencies. EMBP enables complete internal refactoring freedom while maintaining clean public APIs and clear architectural layers.
 
