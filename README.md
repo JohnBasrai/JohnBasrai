@@ -17,14 +17,10 @@ I’m currently building a full-stack Rust app across two coordinated repos: cr8
 <br> **Project Spotlight**:  
 | Repo                                                                 | Highlights                                                       |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **[cr8s](https://github.com/JohnBasrai/cr8s)**                       | Rocket + Postgres backend  •  Docker-first dev env & CI          |
-| **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | Yew/WebAssembly SPA  •  Live-reload, Playwright e2e tests        |
-| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Alternative Axum/Tokio REST template with full integration tests |
-| **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**   | gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**  |
-| [cr8s](https://github.com/JohnBasrai/cr8s) | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations |
-| [cr8s-fe](https://github.com/JohnBasrai/cr8s-fe) | **✨ v0.2.2**: Yew/WASM frontend with 25% faster CI, cross-platform Docker dev environment, Playwright E2E testing |
-| [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) | Production-ready Axum + Redis API with comprehensive middleware |
-| [zkp-cp](https://github.com/JohnBasrai/zkp-cp) | Zero-knowledge proof implementation in Rust |
+| **[cr8s](https://github.com/JohnBasrai/cr8s)**                       | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations |
+| **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | **✨ v0.2.2**: Yew/WASM frontend with 25% faster CI, cross-platform Docker dev environment, Playwright E2E testing |
+| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API with comprehensive middleware |
+| **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**                   | Zero-knowledge proof implementation in Rust<br> gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**|
 
 ### What I'm Looking For
 Open to roles in Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms.
