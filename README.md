@@ -21,14 +21,18 @@ I’m currently building a full-stack Rust app across two coordinated repos: cr8
 | **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | Yew/WebAssembly SPA  •  Live-reload, Playwright e2e tests        |
 | **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Alternative Axum/Tokio REST template with full integration tests |
 | **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**   | gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**  |
+| [cr8s](https://github.com/JohnBasrai/cr8s) | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations |
+| [cr8s-fe](https://github.com/JohnBasrai/cr8s-fe) | **✨ v0.2.2**: Yew/WASM frontend with 25% faster CI, cross-platform Docker dev environment, Playwright E2E testing |
+| [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) | Production-ready Axum + Redis API with comprehensive middleware |
+| [zkp-cp](https://github.com/JohnBasrai/zkp-cp) | Zero-knowledge proof implementation in Rust |
 
 ### What I'm Looking For
 Open to roles in Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms.
 
 ### Current Focus
-Currently hardening a Rocket + Yew micro-SaaS, integrating gRPC with Tonic, and expanding Playwright-based E2E coverage.
+Currently expanding the cr8s ecosystem with enhanced CI/CD performance, cross-platform development workflows, and comprehensive E2E testing coverage. Recent work includes Docker optimization, GitHub Actions workflow enhancement, and solving complex permission handling across diverse development environments.
 
-💼 Open to full-time Rust backend roles or select consulting engagements.<br>
+💼 Open to full-time Rust backend, system programming roles or select consulting engagements.<br>
 The best way to contact me is via [LinkedIn](https://www.linkedin.com/in/johnbasrai).
 
 Currently focused on Rust-based backend and distributed system development.
@@ -78,9 +82,9 @@ Currently focused on Rust-based backend and distributed system development.
  - Playwright - E2E browser automation and UI testing 
 
 **DevOps & CI/CD**  
-- Docker / Docker Compose
-- GitLab CI/CD, GitHub Actions
-- Jenkins  
+- Docker / Docker Compose (advanced container orchestration)
+- GitLab CI/CD, GitHub Actions (performance optimization, cross-platform workflows)
+- Jenkins
 
 **Frameworks & APIs**  
 - Axum / Rocket / Actix / Yew
@@ -118,10 +122,13 @@ Currently focused on Rust-based backend and distributed system development.
 
 ### 🔧 Recent Highlights
 
+- **Performance Engineering**: Optimized CI/CD pipeline for cr8s-fe, achieving 25% performance improvement<br> (5m → 4m build times)
+- **Cross-Platform Compatibility**: Solved complex Docker user permission issues across development environments<br> (local dev vs GitHub runners)  
+- **DevOps Excellence**: Eliminated environment configuration drift by consolidating version management and improving<br> container orchestration
+- **Release Management**: Successfully coordinated dual-repository release (cr8s v0.4.6 + cr8s-fe v0.2.2)<br> with full backward compatibility
 - Added **Playwright-powered manual E2E test suite** for a fullstack Rust/WASM application
 - Enhanced **GitHub Actions workflows** with `workflow_dispatch`, conditional steps, and Docker service orchestration
 - Refined **Docker-based local development** for rapid iteration and frontend/backend parity
-
 
 ### Socials
 
