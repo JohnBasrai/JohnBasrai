@@ -7,7 +7,7 @@
 
 Solution-oriented and results-driven software engineer with 15+ years of experience in systems and backend development, currently specializing in **Rust**. Proven expertise in designing high-performance, scalable, and reliable software using **Rust**, **Modern C++**, and **Python**. Adept at applying engineering principles, object-oriented design, and advanced problem-solving techniques to deliver robust enterprise solutions.
 
-I’m currently building a full-stack Rust app across two coordinated repos: cr8s (backend with Rocket + Postgres) and cr8s-fe (Yew/WebAssembly SPA). The frontend manages its own Docker-first orchestration and integrates with CI-verified Playwright E2E tests. I emphasize async execution, observability, and system resilience—especially in distributed or embedded domains. I’m also open to systems programming in Rust, including Linux CLI tools, where performance and safety are critical. Known for debugging complex issues and delivering production-grade solutions across the stack.
+I'm currently building a full-stack Rust app with **comprehensive test coverage** across two coordinated repos: cr8s (backend with Rocket + Postgres + **integration testing**) and cr8s-fe (Yew/WebAssembly SPA + **E2E testing**). The backend features robust integration tests covering database transactions, API endpoints, and authentication flows, while the frontend manages Docker-first orchestration with CI-verified Playwright tests.
 
 - 🌍 I'm based in Yuba City, CA
 - 🧠 Currently building a Rocket + Postgres REST backend with a Yew/WebAssembly SPA front-end … See the **[cr8s](https://github.com/JohnBasrai/cr8s)** + **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)** stack
@@ -17,13 +17,13 @@ I’m currently building a full-stack Rust app across two coordinated repos: cr8
 <br> **Project Spotlight**:  
 | Repo                                                                 | Highlights                                                       |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **[cr8s](https://github.com/JohnBasrai/cr8s)**                       | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations |
-| **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | **✨ v0.2.2**: Yew/WASM frontend with 25% faster CI, cross-platform Docker dev environment, Playwright E2E testing |
+| **[cr8s](https://github.com/JohnBasrai/cr8s)**                       | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, **✨ NEW: Comprehensive integration test suite with database transactions and API endpoint validation** |
+| **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | **✨ v0.2.3**: Yew/WASM frontend companion to the cr8s Rust backend, cross-platform Docker dev environment, Playwright E2E testing<br> |
 | **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API with comprehensive middleware |
 | **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**                   | Zero-knowledge proof implementation in Rust<br> gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**|
 
 ### What I'm Looking For
-Open to roles in Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms.
+Open to roles in Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms. **Strong emphasis on test-driven development and quality engineering practices.**
 
 ### Current Focus
 Currently expanding the cr8s ecosystem with enhanced CI/CD performance, cross-platform development workflows, and comprehensive E2E testing coverage. Recent work includes Docker optimization, GitHub Actions workflow enhancement, and solving complex permission handling across diverse development environments.
@@ -74,12 +74,16 @@ Currently focused on Rust-based backend and distributed system development.
 **Databases & Caching**  
 - PostgreSQL / Redis / SQLx / Diesel
 
-**End-to-End Testing**  
- - Playwright - E2E browser automation and UI testing 
+**Testing Frameworks & Strategies**  
+- **Rust Testing** - Unit and integration testing with cargo test framework
+- **Integration Testing** - Database transactions, API validation, and service integration
+- **API Testing** - RESTful endpoint validation and authentication flow testing
+- **E2E Testing** - Playwright E2E browser automation and UI testing
 
 **DevOps & CI/CD**  
 - Docker / Docker Compose (advanced container orchestration)
 - GitLab CI/CD, GitHub Actions (performance optimization, cross-platform workflows)
+- **Test Automation** - Automated test execution with Docker service orchestration
 - Jenkins
 
 **Frameworks & APIs**  
@@ -88,7 +92,7 @@ Currently focused on Rust-based backend and distributed system development.
 - gRPC (Tonic)
 - GraphQL
 - Apache Thrift  
-- Serde  
+- Serde
 
 **Embedded & OS Platforms**  
 - Linux  
@@ -118,13 +122,23 @@ Currently focused on Rust-based backend and distributed system development.
 
 ### 🔧 Recent Highlights
 
+- **Integration Testing Excellence**: Implemented comprehensive integration test suite for cr8s backend<br> 
+  with database transaction testing, endpoint validation, and automated CI/CD integration
 - **Performance Engineering**: Optimized CI/CD pipeline for cr8s-fe, achieving 25% performance improvement<br> (5m → 4m build times)
+- Refined **Docker-based local development** for rapid iteration and frontend/backend parity
 - **Cross-Platform Compatibility**: Solved complex Docker user permission issues across development environments<br> (local dev vs GitHub runners)  
 - **DevOps Excellence**: Eliminated environment configuration drift by consolidating version management and improving<br> container orchestration
 - **Release Management**: Successfully coordinated dual-repository release (cr8s v0.4.6 + cr8s-fe v0.2.2)<br> with full backward compatibility
 - Added **Playwright-powered manual E2E test suite** for a fullstack Rust/WASM application
 - Enhanced **GitHub Actions workflows** with `workflow_dispatch`, conditional steps, and Docker service orchestration
-- Refined **Docker-based local development** for rapid iteration and frontend/backend parity
+
+### 🧪 Testing Philosophy & Practice
+
+**Full-Stack Test Coverage**: Achieved comprehensive testing coverage across the cr8s stack:
+- **Backend Integration Tests**: Database transaction testing, API endpoint validation, authentication flows
+- **Frontend E2E Tests**: User journey automation with Playwright
+- **CI/CD Integration**: Automated test execution with Docker service orchestration
+- **Test Isolation**: Proper test database setup/teardown and transaction rollback patterns
 
 ### Socials
 
@@ -154,6 +168,11 @@ Currently focused on Rust-based backend and distributed system development.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![CI](https://img.shields.io/badge/GitHub%20Actions-CI-blue?logo=github-actions&logoColor=white&style=for-the-badge)
+
+### 🧪 Testing & Quality Assurance
+![Integration Testing](https://img.shields.io/badge/Integration%20Testing-Rust-orange?style=for-the-badge&logo=rust&logoColor=white)
+![E2E Testing](https://img.shields.io/badge/E2E%20Testing-Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)
+![Test Automation](https://img.shields.io/badge/Test%20Automation-CI%2FCD-blue?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ## 🤝 Let's Connect
 
