@@ -5,19 +5,27 @@
 
 ## <img src="https://www.rust-lang.org/logos/rust-logo-32x32.png" alt="Rust" width="24" valign="middle" /> About Me
 
-Solution-oriented and results-driven software engineer with 15+ years of experience in systems and backend development, currently specializing in **Rust**. Proven expertise in designing high-performance, scalable, and reliable software using **Rust**, **Modern C++**, and **Python**. Adept at applying engineering principles, object-oriented design, and advanced problem-solving techniques to deliver robust enterprise solutions.
+Solution-oriented, results-driven software engineer with **15+ years of experience** in systems and backend development — currently specializing in **Rust** for full-stack, correctness-first applications. Skilled in Rust, Modern C++, and Python, with a strong focus on architectural clarity, modularity, and automated testing.
 
-I'm currently building a full-stack Rust app with **comprehensive test coverage** across two coordinated repos: cr8s (backend with Rocket + Postgres + **integration testing**) and cr8s-fe (Yew/WebAssembly SPA + **E2E testing**). The backend features robust integration tests covering database transactions, API endpoints, and authentication flows, while the frontend manages Docker-first orchestration with CI-verified Playwright tests.
+I'm currently leading development of [cr8s](https://github.com/JohnBasrai/cr8s), a full-stack Rust platform for managing crate metadata, release tracking, and user access — designed with a strong focus on correctness, modularity, and test coverage. It includes:
 
-- 🌍 I'm based in Yuba City, CA
-- 🧠 Currently building a Rocket + Postgres REST backend with a Yew/WebAssembly SPA front-end … See the **[cr8s](https://github.com/JohnBasrai/cr8s)** + **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)** stack
-- 🧠 Also worked on a RESTful backend using **Rust**, Axum, and Redis in my [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart) project  
-- 🤝 I'm open to collaborating on projects — especially in Rust, backend systems, or CLI tool development
+- **cr8s**: Rocket + PostgreSQL backend with Redis caching, CI pipelines, and comprehensive integration test coverage  
+- **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**: Yew/WebAssembly frontend with Playwright-based E2E testing  
+- A supporting CLI for batch operations, ingestion, and administrative workflows
+
+Other recent projects include:
+
+* [**axum-quickstart**](https://github.com/JohnBasrai/axum-quickstart) — a RESTful Axum backend with async Redis integration and CI-ready dev tooling
+
+---
+
+* 🌍 Based in Yuba City, CA
+* 🤝 Open to collaborating on Rust-based systems, CLI tools, or backend platforms
 
 <br> **Project Spotlight**:  
 | Repo                                                                 | Highlights                                                       |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **[cr8s](https://github.com/JohnBasrai/cr8s)**                       | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, **✨ NEW: Comprehensive integration test suite with database transactions and API endpoint validation** |
+| cr8s | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, ✨ NEW: Comprehensive integration test suite with database transactions and API endpoint validation. Part of a full-stack platform for crate metadata, release tracking, and user access. This project demonstrates full-stack Rust delivery with domain modeling, async architecture, and CI-first design. |
 | **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | **✨ v0.2.3**: Yew/WASM frontend companion to the cr8s Rust backend, cross-platform Docker dev environment, Playwright E2E testing<br> |
 | **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API with comprehensive middleware |
 | **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**                   | Zero-knowledge proof implementation in Rust<br> gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**|
