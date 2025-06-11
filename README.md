@@ -13,6 +13,9 @@ I'm currently leading development of [cr8s](https://github.com/JohnBasrai/cr8s),
 - **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**: Yew/WebAssembly frontend with Playwright-based E2E testing  
 - A supporting CLI for batch operations, ingestion, and administrative workflows
 
+- ## 📌 Featured
+👉 [🦀 Rust Project Portfolio – John Basrai](./PORTFOLIO.md)
+
 Other recent projects include:
 
 * [**axum-quickstart**](https://github.com/JohnBasrai/axum-quickstart) — a RESTful Axum backend with async Redis integration and CI-ready dev tooling
