@@ -14,7 +14,7 @@ Companion frontend: [cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)
 Yew/WebAssembly SPA with Playwright-based E2E tests and Docker-first dev flow.
 
 ## 🛠️ Additional Projects
-- [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart): Async Axum API with Redis, integration-tested and containerized  
+- [axum-quickstart](https://github.com/JohnBasrai/axum-quickstart): Axum REST API with Prometheus metrics, Redis backend, Docker deployment, and CI/CD pipeline 
 - [zkp-cp](https://github.com/JohnBasrai/zkp-cp): Zero-knowledge proof prototype using Chaum–Pedersen protocol over gRPC  
 - [rust-base-containers](https://github.com/JohnBasrai/rust-base-containers): Reproducible Rust dev container built on `rust:1.83-slim + curated tools`
 
