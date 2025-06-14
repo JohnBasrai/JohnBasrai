@@ -30,7 +30,7 @@ Other recent projects include:
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | cr8s | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, ✨ NEW: Comprehensive integration test suite with database transactions and API endpoint validation. Part of a full-stack platform for crate metadata, release tracking, and user access. This project demonstrates full-stack Rust delivery with domain modeling, async architecture, and CI-first design. |
 | **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | **✨ v0.2.3**: Yew/WASM frontend companion to the cr8s Rust backend, cross-platform Docker dev environment, Playwright E2E testing<br> |
-| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API with comprehensive middleware |
+| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API featuring Prometheus metrics, health monitoring, clean architecture patterns (EMBP), and comprehensive testing infrastructure. |
 | **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**                   | Zero-knowledge proof implementation in Rust<br> gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**|
 
 ### What I'm Looking For
