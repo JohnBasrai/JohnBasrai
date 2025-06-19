@@ -24,6 +24,7 @@ Other recent projects include:
 
 * 🌍 Based in Yuba City, CA
 * 🤝 Open to collaborating on Rust-based systems, CLI tools, or backend platforms
+* 🎓 Contributed to GNU Emacs and the Flex lexical scanner; listed on the [Flex authors page](https://www.math.utah.edu/docs/info/flex_25.html)
 
 <br> **Project Spotlight**:  
 | Repo                                                                 | Highlights                                                       |
