@@ -14,7 +14,9 @@ I'm currently leading development of [cr8s](https://github.com/JohnBasrai/cr8s),
 - A supporting CLI for batch operations, ingestion, and administrative workflows
 
 - ## 📌 Featured
-👉 [🦀 Rust Project Portfolio – John Basrai](./PORTFOLIO.md)
+👉 [🦀 Rust Project Portfolio – John Basrai](./PORTFOLIO.md)<br>
+👉 [🦀 LinkedIn Post: Rust vs Go](https://www.linkedin.com/posts/johnbasrai_rust-vs-go-golang-performance-2025-activity-7294464721804570624-Mcry?utm_source=share&utm_medium=member_desktop&rcm=ACoAABUDoTcBsfjT_tSDazaeEwHqZYWmkYkosDE)
+
 
 Other recent projects include:
 
