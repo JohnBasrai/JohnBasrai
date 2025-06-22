@@ -23,4 +23,4 @@ Yew/WebAssembly SPA with Playwright-based E2E tests and Docker-first dev flow.
 - 🌎 Yuba City, CA · Remote-first  
 
 ---
-_Available for Senior Rust roles in backend systems, distributed infrastructure, or system programming._
+_Senior Rust engineer building scalable distributed systems and high-performance backend infrastructure._
