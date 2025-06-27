@@ -82,6 +82,7 @@ Currently focused on Rust-based backend and distributed system development.
 - Web-Sys  
 
 **Cloud & Infrastructure**  
+* **AWS Lambda** – [aws-lambda-action-filter](https://github.com/JohnBasrai/aws-lambda-action-filter): Rust Lambda function for filtering entity actions by time and priority, with tests and corrected logic
 - AWS (Dev/Deploy)
 - IronBank container hardening
 
