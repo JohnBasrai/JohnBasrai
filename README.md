@@ -102,6 +102,13 @@ Currently focused on Rust-based backend and distributed system development.
 - **Test Automation** - Automated test execution with Docker service orchestration
 - Jenkins
 
+**Middleware & RPC**  
+- Apache Thrift
+- gRPC/protobuf
+- ZeroC Ice, IceRPC
+- CORBA
+- ActiveMQ
+
 **Frameworks & APIs**  
 - Axum / Rocket / Actix / Yew
 - RESTful APIs  
