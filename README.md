@@ -1,7 +1,7 @@
 # <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> John Basrai
 
-**Senior Rust Software Engineer**  
-*Backend · Distributed Systems · WASM · CI/CD · E2E Testing*
+**Senior/Staff Software Engineer**<br>
+*Rust & C++ · Backend Systems · Distributed Architectures · CI/CD · High-Performance Applications*
 
 ## <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> About Me
 
