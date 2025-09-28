@@ -1,9 +1,10 @@
-# <img src="https://www.rust-lang.org/logos/rust-logo-32x32.png" alt="Rust" width="24" valign="middle" /> John Basrai
+# <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> John Basrai
 
 **Senior Rust Software Engineer**  
 *Backend · Distributed Systems · WASM · CI/CD · E2E Testing*
 
-## <img src="https://www.rust-lang.org/logos/rust-logo-32x32.png" alt="Rust" width="24" valign="middle" /> About Me
+## <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> About Me
+
 
 Solution-oriented, results-driven software engineer with **15+ years of experience** in systems and backend development — currently specializing in **Rust** for full-stack, correctness-first applications. Skilled in Rust, Modern C++, and Python, with a strong focus on architectural clarity, modularity, and automated testing.
 
