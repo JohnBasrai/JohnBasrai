@@ -29,7 +29,28 @@ Other recent projects include:
 * 🤝 Open to collaborating on Rust-based systems, CLI tools, or backend platforms
 * 🎓 Contributed to GNU Emacs and the Flex lexical scanner; listed on the [Flex authors page](https://www.math.utah.edu/docs/info/flex_25.html)
 
-<br> **Project Spotlight**:  
+## **Project Spotlight**:  
+### 🚀 mempool-vortex: Real-Time MEV Detection & Simulation
+
+A Rust-based MEV simulation engine that integrates Ethereum mempool monitoring, MEV opportunity detection, and bundle construction via Flashbots-style relay protocols. This project demonstrates real-time data ingestion, pipeline orchestration, and modular design for simulation and extension.
+
+🔧 **Highlights**:
+- Full implementation of a real-time MEV detection pipeline
+- Live pending transaction decoding with Uniswap, ERC20, and protocol classification
+- Multi-relay bundling support with Flashbots, bloXroute, Eden scaffolding
+- Configurable simulation mode with CLI controls (`--simulate`, `--addr-style`, `--max-tx`)
+- Modular architecture with `searcher`, `bundler`, `mempool`, and `types` components
+
+🧪 **Manual Run Support**:
+```bash
+cargo run -- --simulate --max-tx 10
+```
+### 🧩 More Rust Projects
+
+Here are additional selected projects showcasing Rust across domains including AWS, databases, zero-knowledge proofs, and frontend/backend integration:
+
+---
+
 | Repo                                                                 | Highlights                                                       |
 | -------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [aws-lambda-action-filter](https://github.com/JohnBasrai/aws-lambda-action-filter) | Rust-based AWS Lambda function that filters entity actions by time and priority. Includes deduplication and sorting logic. Originally designed as a technical challenge; now refactored and extended with full test coverage and filtering logic. |
@@ -65,7 +86,10 @@ Currently focused on Rust-based backend and distributed system development.
 - API Design  
 - Real-Time Processing  
 - Cryptography  
-- WebAssembly Frontend Development  
+- WebAssembly Frontend Development
+- Real-Time Ethereum Mempool Processing
+- Flashbots-style MEV Opportunity Detection & Simulation
+- Modular Rust Pipeline Design (Searcher, Bundler, Mempool, Config)
 
 **Languages & Libraries**  
 - Rust (since 2022)  
@@ -81,7 +105,9 @@ Currently focused on Rust-based backend and distributed system development.
 - WebSocket  
 - TCP/IP / UDP  
 - RTP (Real-time Transport Protocol)  
-- Web-Sys  
+- Web-Sys
+- Ethereum WebSocket Integration (mempool ingestion)
+- Multi-Relay Submission (Flashbots, bloXroute, Eden – simulated)
 
 **Cloud & Infrastructure**  
 * **AWS Lambda** – [aws-lambda-action-filter](https://github.com/JohnBasrai/aws-lambda-action-filter): Rust Lambda function for filtering entity actions by time and priority, with tests and corrected logic
@@ -96,6 +122,7 @@ Currently focused on Rust-based backend and distributed system development.
 - **Integration Testing** - Database transactions, API validation, and service integration
 - **API Testing** - RESTful endpoint validation and authentication flow testing
 - **E2E Testing** - Playwright E2E browser automation and UI testing
+- **MEV Simulation** Testing (non-submitting bundle pipeline with --simulate)
 
 **DevOps & CI/CD**  
 - Docker / Docker Compose (advanced container orchestration)
