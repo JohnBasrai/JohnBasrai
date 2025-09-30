@@ -81,7 +81,7 @@ Currently focused on Rust-based backend and distributed system development.
 ### 🛠️ Skills Overview
 
 **Areas of Expertise**  
-- Rust-based Systems Programming  
+- C++ and Rust-based Systems Programming  
 - Distributed Systems  
 - API Design  
 - Real-Time Processing  
