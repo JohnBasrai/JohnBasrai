@@ -5,70 +5,75 @@
 
 ## <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> About Me
 
+Solution-oriented, results-driven software engineer with **15+ years of experience** in systems and backend development — currently specializing in **Rust** for authentication infrastructure, backend systems, and correctness-first applications. Recent focus on **OAuth2/OIDC/JWT** implementations with comprehensive automated testing. Skilled in Rust, Modern C++, and Python, with a strong focus on architectural clarity, modularity, and security-first design.
 
-Solution-oriented, results-driven software engineer with **15+ years of experience** in systems and backend development — currently specializing in **Rust** for full-stack, correctness-first applications. Skilled in Rust, Modern C++, and Python, with a strong focus on architectural clarity, modularity, and automated testing.
+I'm currently developing [tokn](https://github.com/JohnBasrai/tokn), a production-ready OAuth2/OIDC authorization server and JWT token service in Rust, featuring comprehensive automated testing, RFC compliance, and security-first design patterns.
 
-I'm currently leading development of [cr8s](https://github.com/JohnBasrai/cr8s), a full-stack Rust platform for managing crate metadata, release tracking, and user access — designed with a strong focus on correctness, modularity, and test coverage. It includes:
-
-- **cr8s**: Rocket + PostgreSQL backend with Redis caching, CI pipelines, and comprehensive integration test coverage  
-- **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**: Yew/WebAssembly frontend with Playwright-based E2E testing  
-- A supporting CLI for batch operations, ingestion, and administrative workflows
-
-- ## 📌 Featured
-👉 [🦀 Rust Project Portfolio – John Basrai](./PORTFOLIO.md)<br>
-👉 [🦀 LinkedIn Post: Rust vs Go](https://www.linkedin.com/posts/johnbasrai_rust-vs-go-golang-performance-2025-activity-7294464721804570624-Mcry?utm_source=share&utm_medium=member_desktop&rcm=ACoAABUDoTcBsfjT_tSDazaeEwHqZYWmkYkosDE)
-
+## 📌 Featured
+👉 [📝 "Building Reliable Rust CI/CD: Lessons from Production Failures"](https://www.linkedin.com/pulse/building-reliable-rust-cicd-lessons-from-production-john-basrai--wclhc/)<br>
+👉 [📝 "What the Cloudflare Outage Teaches Us About Production Rust"](https://www.linkedin.com/pulse/what-cloudflare-outage-teaches-us-production-rust-john-basrai--7yquc/)
 
 Other recent projects include:
 
-* [**axum-quickstart**](https://github.com/JohnBasrai/axum-quickstart) — a RESTful Axum backend with async Redis integration and CI-ready dev tooling
+* [**axum-quickstart**](https://github.com/JohnBasrai/axum-quickstart) — RESTful Axum backend with async Redis, WebAuthn/Passkeys support, and CI-ready dev tooling
+* [**argus-events**](https://github.com/JohnBasrai/argus-events) — Production event tracking service with Prometheus metrics, distributed tracing, and clean architecture patterns
 
 ---
 
 * 🌍 Based in Yuba City, CA
-* 🤝 Open to collaborating on Rust-based systems, CLI tools, or backend platforms
-* 🎓 Contributed to GNU Emacs and the Flex lexical scanner; listed on the [Flex authors page](https://www.math.utah.edu/docs/info/flex_25.html)
+* 🤝 Open to collaborating on backend systems, authentication infrastructure, or distributed systems in Rust
 
 ## **Project Spotlight**:  
-### 🚀 mempool-vortex: Real-Time MEV Detection & Simulation
+### 🔐 tokn: OAuth2/OIDC & JWT Authentication Infrastructure
 
-A Rust-based MEV simulation engine that integrates Ethereum mempool monitoring, MEV opportunity detection, and bundle construction via Flashbots-style relay protocols. This project demonstrates real-time data ingestion, pipeline orchestration, and modular design for simulation and extension.
+A production-ready authentication infrastructure demonstrating complete OAuth2/OIDC authorization server and JWT token service implementation in Rust. This project showcases security-first design, RFC compliance, and comprehensive automated testing.
 
 🔧 **Highlights**:
-- Full implementation of a real-time MEV detection pipeline
-- Live pending transaction decoding with Uniswap, ERC20, and protocol classification
-- Multi-relay bundling support with Flashbots, bloXroute, Eden scaffolding
-- Configurable simulation mode with CLI controls (`--simulate`, `--addr-style`, `--max-tx`)
-- Modular architecture with `searcher`, `bundler`, `mempool`, and `types` components
+- Complete OAuth2 authorization server (RFC 6749) with PostgreSQL persistence
+- JWT token service (RFC 7519) with HS256 signing and lifecycle management
+- **5 REST API endpoints** for complete token flows (generation, validation, refresh, revocation)
+- **AuthMiddleware** for Bearer token validation on protected routes
+- **10 automated integration tests** validating all authentication flows and security scenarios
+- Token rotation and JTI-based revocation using Redis TTL blacklist
+- Clean Architecture with EMBP pattern and trait-based abstractions
+- Comprehensive rustdoc with RFC references
 
-🧪 **Manual Run Support**:
+🧪 **Testing & Quality**:
 ```bash
-cargo run -- --simulate --max-tx 10
+./scripts/test-jwt-service.sh
 ```
+✅ Token generation & validation (HS256 signing, expiration)  
+✅ Refresh token rotation (prevents replay attacks)  
+✅ Token revocation & blacklisting (Redis-backed)  
+✅ Protected route authentication (JWT middleware)  
+✅ Security edge cases (missing tokens, revoked tokens)
+
+**Technical Stack**: Axum, PostgreSQL (SQLx), Redis, Argon2id, jsonwebtoken, Docker Compose
+
 ### 🧩 More Rust Projects
 
-Here are additional selected projects showcasing Rust across domains including AWS, databases, zero-knowledge proofs, and frontend/backend integration:
+Here are additional selected projects showcasing Rust across domains including authentication, AWS, databases, zero-knowledge proofs, and frontend/backend integration:
 
 ---
 
-| Repo                                                                 | Highlights                                                       |
-| -------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [aws-lambda-action-filter](https://github.com/JohnBasrai/aws-lambda-action-filter) | Rust-based AWS Lambda function that filters entity actions by time and priority. Includes deduplication and sorting logic. Originally designed as a technical challenge; now refactored and extended with full test coverage and filtering logic. |
-| cr8s | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, ✨ NEW: Comprehensive integration test suite with database transactions and API endpoint validation. Part of a full-stack platform for crate metadata, release tracking, and user access. This project demonstrates full-stack Rust delivery with domain modeling, async architecture, and CI-first design. |
-| **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)**                 | **✨ v0.2.3**: Yew/WASM frontend companion to the cr8s Rust backend, cross-platform Docker dev environment, Playwright E2E testing<br> |
-| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API featuring Prometheus metrics, health monitoring, clean architecture patterns (EMBP), and comprehensive testing infrastructure. |
-| **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)**                   | Zero-knowledge proof implementation in Rust<br> gRPC client-server demo of Chaum–Pedersen ZK proofs using **tonic**|
+| Repo | Highlights |
+| ---- | ---------- |
+| **[tokn](https://github.com/JohnBasrai/tokn)** | OAuth2/OIDC authorization server (RFC 6749) and JWT token service (RFC 7519) with 5 REST endpoints, token lifecycle management, refresh rotation, AuthMiddleware, and 10 automated security tests |
+| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API featuring PostgreSQL-backed WebAuthn credential storage, Redis challenge management, Prometheus metrics, health monitoring, clean architecture patterns (EMBP), and comprehensive testing infrastructure |
+| **cr8s** | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, comprehensive integration test suite with database transactions and API endpoint validation. Part of a full-stack platform for crate metadata, release tracking, and user access |
+| **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)** | Yew/WASM frontend companion to the cr8s Rust backend, cross-platform Docker dev environment, Playwright E2E testing |
+| **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)** | Zero-knowledge proof implementation in Rust — gRPC client-server demo of Chaum–Pedersen ZK proofs using tonic |
+| **[argus-events](https://github.com/JohnBasrai/argus-events)** | Production event tracking service with Prometheus metrics, distributed tracing, clean architecture (trait-based repository, EMBP), and container-per-test isolation strategy |
+| **[mempool-vortex](https://github.com/JohnBasrai/mempool-vortex)** | MEV infrastructure simulation with real-time Ethereum mempool monitoring, WebSocket streaming, and latency measurement in Rust |
+| **[sensorflow-data-pipeline](https://github.com/JohnBasrai/sensorflow-data-pipeline)** | Modular sensor data pipeline in Rust: fetch, transform, analyze, store, and expose via API with PostgreSQL indexing optimization and real-time anomaly detection |
+
+📁 **[Complete Project Portfolio](https://u.pcloud.link/publink/show?code=XZzpRs5ZkaemojJyP7jaLpK6phpph8GNltRk)** — Full list of GitHub repositories with descriptions
 
 ### What I'm Looking For
-Open to roles in Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms. **Strong emphasis on test-driven development and quality engineering practices.**
+Open to roles in **authentication infrastructure (OAuth2/OIDC/JWT)**, Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms. **Strong emphasis on test-driven development and quality engineering practices.**
 
 ### Current Focus
-Currently expanding the cr8s ecosystem with enhanced CI/CD performance, cross-platform development workflows, and comprehensive E2E testing coverage. Recent work includes Docker optimization, GitHub Actions workflow enhancement, and solving complex permission handling across diverse development environments.
-
-💼 Open to full-time Rust backend, system programming roles or select consulting engagements.<br>
-The best way to contact me is via [LinkedIn](https://www.linkedin.com/in/johnbasrai).
-
-Currently focused on Rust-based backend and distributed system development.
+Currently developing modern authentication infrastructure with **tokn** (OAuth2/OIDC/JWT) and integrating **WebAuthn/Passkeys** into axum-quickstart. Focus on production-ready security patterns, comprehensive automated testing (10 security test scenarios), and RFC-compliant implementations. Building on lessons learned from cr8s ecosystem to deliver cleaner CI/CD workflows and containerization strategies.
 
 <p align="left">
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
@@ -85,6 +90,7 @@ Currently focused on Rust-based backend and distributed system development.
 - Distributed Systems  
 - API Design  
 - Real-Time Processing  
+- Authentication & Authorization (OAuth2/OIDC/JWT)
 - Cryptography  
 - WebAssembly Frontend Development
 - Real-Time Ethereum Mempool Processing
@@ -107,10 +113,10 @@ Currently focused on Rust-based backend and distributed system development.
 - RTP (Real-time Transport Protocol)  
 - Web-Sys
 - Ethereum WebSocket Integration (mempool ingestion)
-- Multi-Relay Submission (Flashbots, bloXroute, Eden – simulated)
+- Multi-Relay Submission (Flashbots, bloXroute, Eden — simulated)
 
 **Cloud & Infrastructure**  
-* **AWS Lambda** – [aws-lambda-action-filter](https://github.com/JohnBasrai/aws-lambda-action-filter): Rust Lambda function for filtering entity actions by time and priority, with tests and corrected logic
+* **AWS Lambda** — [aws-lambda-action-filter](https://github.com/JohnBasrai/aws-lambda-action-filter): Rust Lambda function for filtering entity actions by time and priority, with tests and corrected logic
 - AWS (Dev/Deploy)
 - IronBank container hardening
 
@@ -120,6 +126,7 @@ Currently focused on Rust-based backend and distributed system development.
 **Testing Frameworks & Strategies**  
 - **Rust Testing** - Unit and integration testing with cargo test framework
 - **Integration Testing** - Database transactions, API validation, and service integration
+- **Security Testing** - OAuth2/JWT token lifecycle, rotation, revocation, and middleware validation
 - **API Testing** - RESTful endpoint validation and authentication flow testing
 - **E2E Testing** - Playwright E2E browser automation and UI testing
 - **MEV Simulation** Testing (non-submitting bundle pipeline with --simulate)
@@ -130,7 +137,11 @@ Currently focused on Rust-based backend and distributed system development.
 - **Test Automation** - Automated test execution with Docker service orchestration
 - Jenkins
 
-**Middleware & RPC**  
+**Web Framework Middleware**  
+- Axum middleware (authentication, request validation)
+- Trait-based middleware composition
+
+**RPC & Message Brokers**  
 - Apache Thrift
 - gRPC/protobuf
 - ZeroC Ice, IceRPC
@@ -166,26 +177,26 @@ Currently focused on Rust-based backend and distributed system development.
 
 **🧠 Work Habits & Culture Fit**
 
-- Agile / Scrum / Kanban
-- Test-Driven Development (TDD)
-- Pair Programming & Remote Collaboration
-- Asynchronous Communication (remote-first / remote-only)
+- Test-Driven Quality / Automated Test Suites
+- Remote-First / Asynchronous Communication
+- Pair Programming & Code Review Culture
 
 ### 🔧 Recent Highlights
 
-- **Integration Testing Excellence**: Implemented comprehensive integration test suite for cr8s backend<br> 
-  with database transaction testing, endpoint validation, and automated CI/CD integration
-- **Performance Engineering**: Optimized CI/CD pipeline for cr8s-fe, achieving 25% performance improvement<br> (5m → 4m build times)
+- **Authentication Infrastructure**: Built production-ready OAuth2/OIDC authorization server and JWT token service with **10 automated security tests** validating token lifecycle, refresh rotation, revocation, and protected route authentication
+- **RFC Compliance**: Implemented OAuth2 (RFC 6749) and JWT (RFC 7519) specifications with HS256 signing, 15-minute access tokens, 7-day refresh tokens, and JTI-based revocation using Redis TTL blacklist
+- **Security Testing Excellence**: Comprehensive test suite covering token generation, validation, rotation (prevents replay attacks), revocation, blacklisting, and middleware authorization with automated CI/CD integration
+- **WebAuthn/Passkeys Integration**: Built WebAuthn credential storage (PostgreSQL), challenge management (Redis), and authentication flows in axum-quickstart with automated testing
+- **Integration Testing Excellence**: Implemented comprehensive integration test suite for cr8s backend with database transaction testing, endpoint validation, and automated CI/CD integration
+- **Performance Engineering**: Optimized CI/CD pipeline for cr8s-fe, achieving 25% performance improvement (5m → 4m build times)
 - Refined **Docker-based local development** for rapid iteration and frontend/backend parity
-- **Cross-Platform Compatibility**: Solved complex Docker user permission issues across development environments<br> (local dev vs GitHub runners)  
-- **DevOps Excellence**: Eliminated environment configuration drift by consolidating version management and improving<br> container orchestration
-- **Release Management**: Successfully coordinated dual-repository release (cr8s v0.4.6 + cr8s-fe v0.2.2)<br> with full backward compatibility
-- Added **Playwright-powered manual E2E test suite** for a fullstack Rust/WASM application
-- Enhanced **GitHub Actions workflows** with `workflow_dispatch`, conditional steps, and Docker service orchestration
+- **Cross-Platform Compatibility**: Solved complex Docker user permission issues across development environments (local dev vs GitHub runners)  
+- **DevOps Excellence**: Eliminated environment configuration drift by consolidating version management and improving container orchestration
 
 ### 🧪 Testing Philosophy & Practice
 
-**Full-Stack Test Coverage**: Achieved comprehensive testing coverage across the cr8s stack:
+**Full-Stack Test Coverage**: Achieved comprehensive testing coverage across multiple projects:
+- **Security Testing**: 10 automated OAuth2/JWT tests (token lifecycle, rotation, revocation, middleware)
 - **Backend Integration Tests**: Database transaction testing, API endpoint validation, authentication flows
 - **Frontend E2E Tests**: User journey automation with Playwright
 - **CI/CD Integration**: Automated test execution with Docker service orchestration
@@ -206,6 +217,10 @@ Currently focused on Rust-based backend and distributed system development.
 ---
 ## 🛠️ Featured Tools
 
+**tokn Authentication Infrastructure**
+
+[![tokn CI](https://github.com/JohnBasrai/tokn/actions/workflows/rust.yml/badge.svg)](https://github.com/JohnBasrai/tokn)
+
 **Rust Dev Container CI**
 
 [![rust-base-containers CI](https://github.com/JohnBasrai/rust-base-containers/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnBasrai/rust-base-containers)
@@ -223,8 +238,9 @@ Currently focused on Rust-based backend and distributed system development.
 ### 🧪 Testing & Quality Assurance
 ![Integration Testing](https://img.shields.io/badge/Integration%20Testing-Rust-orange?style=for-the-badge&logo=rust&logoColor=white)
 ![E2E Testing](https://img.shields.io/badge/E2E%20Testing-Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)
+![Security Testing](https://img.shields.io/badge/Security%20Testing-OAuth2%2FJWT-red?style=for-the-badge&logo=rust&logoColor=white)
 ![Test Automation](https://img.shields.io/badge/Test%20Automation-CI%2FCD-blue?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ## 🤝 Let's Connect
 
-If you're hiring for backend, distributed systems, or Rust-focused roles, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnbasrai/).
+If you're hiring for backend, distributed systems, authentication infrastructure, or Rust-focused roles, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnbasrai/).
