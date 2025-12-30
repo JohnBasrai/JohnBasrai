@@ -7,7 +7,7 @@
 
 Solution-oriented, results-driven software engineer with **15+ years of experience** in systems and backend development — currently specializing in **Rust** for authentication infrastructure, backend systems, and correctness-first applications. Recent focus on **OAuth2/OIDC/JWT** implementations with comprehensive automated testing. Skilled in Rust, Modern C++, and Python, with a strong focus on architectural clarity, modularity, and security-first design.
 
-I'm currently developing [tokn](https://github.com/JohnBasrai/tokn), a production-ready OAuth2/OIDC authorization server and JWT token service in Rust, featuring comprehensive automated testing, RFC compliance, and security-first design patterns.
+I'm currently developing [tokn](https://github.com/JohnBasrai/tokn), an OAuth2/OIDC authorization server and JWT token service in Rust with RFC 6749/7636 compliance, PKCE flow implementation, and automated protocol testing.
 
 ## 📌 Featured
 👉 [📝 "Building Reliable Rust CI/CD: Lessons from Production Failures"](https://www.linkedin.com/pulse/building-reliable-rust-cicd-lessons-from-production-john-basrai--wclhc/)<br>
@@ -26,7 +26,7 @@ Other recent projects include:
 ## **Project Spotlight**:  
 ### 🔐 tokn: OAuth2/OIDC & JWT Authentication Infrastructure
 
-A production-ready authentication infrastructure demonstrating complete OAuth2/OIDC authorization server and JWT token service implementation in Rust. This project showcases security-first design, RFC compliance, and comprehensive automated testing.
+Complete OAuth2/OIDC authorization server in Rust demonstrating security-first authentication: RFC 6749/7636 compliance, PKCE flow, refresh token rotation, and comprehensive protocol testing.
 
 🔧 **Highlights**:
 - Complete OAuth2 authorization server (RFC 6749) with PostgreSQL persistence
@@ -58,12 +58,11 @@ Here are additional selected projects showcasing Rust across domains including a
 
 | Repo | Highlights |
 | ---- | ---------- |
-| **[tokn](https://github.com/JohnBasrai/tokn)** | OAuth2/OIDC authorization server (RFC 6749) and JWT token service (RFC 7519) with 5 REST endpoints, token lifecycle management, refresh rotation, AuthMiddleware, and 10 automated security tests |
-| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Production-ready Axum + Redis API featuring PostgreSQL-backed WebAuthn credential storage, Redis challenge management, Prometheus metrics, health monitoring, clean architecture patterns (EMBP), and comprehensive testing infrastructure |
+| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Async REST API in Rust using Axum, Redis, and Tokio. Demonstrates WebAuthn/Passkeys authentication with PostgreSQL credential storage, Redis challenge management, session-based auth, Prometheus metrics, and comprehensive integration testing |
 | **cr8s** | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, comprehensive integration test suite with database transactions and API endpoint validation. Part of a full-stack platform for crate metadata, release tracking, and user access |
 | **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)** | Yew/WASM frontend companion to the cr8s Rust backend, cross-platform Docker dev environment, Playwright E2E testing |
 | **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)** | Zero-knowledge proof implementation in Rust — gRPC client-server demo of Chaum–Pedersen ZK proofs using tonic |
-| **[argus-events](https://github.com/JohnBasrai/argus-events)** | Production event tracking service with Prometheus metrics, distributed tracing, clean architecture (trait-based repository, EMBP), and container-per-test isolation strategy |
+| **[argus-events](https://github.com/JohnBasrai/argus-events)** | Event tracking service in Rust + Axum with query filtering, Prometheus metrics, Docker containerization, 21 integration tests, and CI/CD pipeline/ |
 | **[mempool-vortex](https://github.com/JohnBasrai/mempool-vortex)** | MEV infrastructure simulation with real-time Ethereum mempool monitoring, WebSocket streaming, and latency measurement in Rust |
 | **[sensorflow-data-pipeline](https://github.com/JohnBasrai/sensorflow-data-pipeline)** | Modular sensor data pipeline in Rust: fetch, transform, analyze, store, and expose via API with PostgreSQL indexing optimization and real-time anomaly detection |
 
@@ -74,7 +73,7 @@ Here are additional selected projects showcasing Rust across domains including a
 Open to roles in **authentication infrastructure (OAuth2/OIDC/JWT)**, Rust-based backend/fullstack systems, distributed architectures, cryptographic protocols (ZKPs), or embedded platforms. **Strong emphasis on test-driven development and quality engineering practices.**
 
 ### Current Focus
-Currently developing modern authentication infrastructure with **tokn** (OAuth2/OIDC/JWT) and integrating **WebAuthn/Passkeys** into axum-quickstart. Focus on production-ready security patterns, comprehensive automated testing (10 security test scenarios), and RFC-compliant implementations. Building on lessons learned from cr8s ecosystem to deliver cleaner CI/CD workflows and containerization strategies.
+Currently developing **tokn** (OAuth2/OIDC/JWT authorization server) and integrating **WebAuthn/Passkeys** into axum-quickstart. Implementing RFC 6749/7636 compliance with automated protocol testing (10 security test scenarios covering PKCE, token rotation, scope enforcement). Applying cr8s CI/CD patterns to containerized authentication services.
 
 <p align="left">
 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
@@ -181,18 +180,6 @@ Currently developing modern authentication infrastructure with **tokn** (OAuth2/
 - Test-Driven Quality / Automated Test Suites
 - Remote-First / Asynchronous Communication
 - Pair Programming & Code Review Culture
-
-### 🔧 Recent Highlights
-
-- **Authentication Infrastructure**: Built production-ready OAuth2/OIDC authorization server and JWT token service with **10 automated security tests** validating token lifecycle, refresh rotation, revocation, and protected route authentication
-- **RFC Compliance**: Implemented OAuth2 (RFC 6749) and JWT (RFC 7519) specifications with HS256 signing, 15-minute access tokens, 7-day refresh tokens, and JTI-based revocation using Redis TTL blacklist
-- **Security Testing Excellence**: Comprehensive test suite covering token generation, validation, rotation (prevents replay attacks), revocation, blacklisting, and middleware authorization with automated CI/CD integration
-- **WebAuthn/Passkeys Integration**: Built WebAuthn credential storage (PostgreSQL), challenge management (Redis), and authentication flows in axum-quickstart with automated testing
-- **Integration Testing Excellence**: Implemented comprehensive integration test suite for cr8s backend with database transaction testing, endpoint validation, and automated CI/CD integration
-- **Performance Engineering**: Optimized CI/CD pipeline for cr8s-fe, achieving 25% performance improvement (5m → 4m build times)
-- Refined **Docker-based local development** for rapid iteration and frontend/backend parity
-- **Cross-Platform Compatibility**: Solved complex Docker user permission issues across development environments (local dev vs GitHub runners)  
-- **DevOps Excellence**: Eliminated environment configuration drift by consolidating version management and improving container orchestration
 
 ### 🧪 Testing Philosophy & Practice
 
