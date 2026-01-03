@@ -79,7 +79,7 @@ OAuth2/OIDC authorization server in Rust with RFC 6749/7636 compliance, PKCE flo
 - Cryptography & Zero-Knowledge Proofs
 
 **Languages**  
-- Rust (since 2022)  
+- Rust (since 2022; async, networking, systems)
 - C / Modern C++ (STL, Boost)
 - Python, Java, SQL
 - WebAssembly (WASM)  
@@ -87,6 +87,7 @@ OAuth2/OIDC authorization server in Rust with RFC 6749/7636 compliance, PKCE flo
 **Async & Networking**  
 - Tokio, Async/Futures, reqwest
 - WebSocket, TCP/IP, UDP, RTP
+- Real-time streaming, packetized media transport
 - Ethereum WebSocket Integration
 
 **Databases & Infrastructure**  
@@ -113,6 +114,7 @@ OAuth2/OIDC authorization server in Rust with RFC 6749/7636 compliance, PKCE flo
 
 **Monitoring & Observability**  
 - Prometheus, Loki, Grafana  
+- Latency, throughput, and runtime metrics
 
 ---
 
