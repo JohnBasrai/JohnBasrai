@@ -12,7 +12,10 @@ Solution-oriented, results-driven software engineer with **15+ years of experien
 
 ### Current Focus
 
-Currently developing **tokn** (OAuth2/OIDC/JWT authorization server) and integrating **WebAuthn/Passkeys** into axum-quickstart. Implementing RFC 6749/7636 compliance with automated protocol testing (10 security test scenarios covering PKCE, token rotation, scope enforcement). Applying cr8s CI/CD patterns to containerized authentication services.
+Currently developing **[tokn](https://github.com/JohnBasrai/tokn)** (OAuth2/OIDC/JWT authorization server) and integrating **WebAuthn/Passkeys** into axum-quickstart. Implementing RFC 6749/7636 compliance with automated protocol testing (10 security test scenarios covering PKCE, token rotation, scope enforcement). Applying cr8s CI/CD patterns to containerized authentication services.
+
+Designing a real-time audio streaming system in Rust — **[rtp-opus-streamer](https://github.com/JohnBasrai/rtp-opus-streamer)**
+ — using RTP (RFC 3550) and Opus (RFC 6716). This work explores end-to-end systems behavior from audio capture through network transport to playback, with emphasis on production concerns such as network resilience, observability, and adaptive behavior under constrained conditions.
 
 ## 📌 Featured
 👉 [📝 "Building Reliable Rust CI/CD: Lessons from Production Failures"](https://www.linkedin.com/pulse/building-reliable-rust-cicd-lessons-from-production-john-basrai--wclhc/)<br>
@@ -54,7 +57,7 @@ OAuth2/OIDC authorization server in Rust with RFC 6749/7636 compliance, PKCE flo
 | Repo | Highlights |
 | ---- | ---------- |
 | **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Async REST API in Rust using Axum, Redis, and Tokio. Demonstrates WebAuthn/Passkeys authentication with PostgreSQL credential storage, Redis challenge management, session-based auth, Prometheus metrics, and comprehensive integration testing |
-| **cr8s** | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, comprehensive integration test suite with database transactions and API endpoint validation. Part of a full-stack platform for crate metadata, release tracking, and user access |
+| **[cr8s](https://github.com/JohnBasrai/cr8s)** | Rocket + Postgres backend with JWT auth, role-based access, SQLx migrations, comprehensive integration test suite with database transactions and API endpoint validation. Part of a full-stack platform for crate metadata, release tracking, and user access |
 | **[cr8s-fe](https://github.com/JohnBasrai/cr8s-fe)** | Yew/WASM frontend companion to the cr8s Rust backend, cross-platform Docker dev environment, Playwright E2E testing |
 | **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)** | Zero-knowledge proof implementation in Rust — gRPC client-server demo of Chaum–Pedersen ZK proofs using tonic |
 | **[argus-events](https://github.com/JohnBasrai/argus-events)** | Event tracking service in Rust + Axum with query filtering, Prometheus metrics, Docker containerization, 21 integration tests, and CI/CD pipeline |
