@@ -64,7 +64,6 @@ OAuth2/OIDC authorization server in Rust with RFC 6749/7636 compliance, PKCE flo
 | **[mempool-vortex](https://github.com/JohnBasrai/mempool-vortex)** | MEV infrastructure simulation with real-time Ethereum mempool monitoring, WebSocket streaming, and latency measurement in Rust |
 | **[sensorflow-data-pipeline](https://github.com/JohnBasrai/sensorflow-data-pipeline)** | Modular sensor data pipeline in Rust: fetch, transform, analyze, store, and expose via API with PostgreSQL indexing optimization and real-time anomaly detection |
 
-📁 **[Rust Project Portfolio](https://gist.github.com/JohnBasrai/1966f154ade89f2fc9c7a7587dcbcc48)** — Curated Rust project showcase  
 📁 **[Complete Repository List](https://u.pcloud.link/publink/show?code=XZzpRs5ZkaemojJyP7jaLpK6phpph8GNltRk)** — All GitHub repositories with descriptions
 
 ---
