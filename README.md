@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> John Basrai
 
-**Senior/Staff Software Engineer**<br>
+**Senior Software Engineer**<br>
 *Rust & C++ · Backend Systems · Distributed Architectures · CI/CD · High-Performance Applications*
 
 ## <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> About Me
@@ -80,7 +80,7 @@ OAuth2/OIDC authorization server in Rust with RFC 6749/7636 compliance, PKCE flo
 **Languages**  
 - Rust (since 2022; async, networking, systems)
 - C / Modern C++ (STL, Boost)
-- Python, Java, SQL
+- Python, SQL
 - WebAssembly (WASM)  
 
 **Async & Networking**  
@@ -89,9 +89,12 @@ OAuth2/OIDC authorization server in Rust with RFC 6749/7636 compliance, PKCE flo
 - Real-time streaming, packetized media transport
 - Ethereum WebSocket Integration
 
+**Architecture**
+- Secure sandboxed execution (namespaces, cgroups v2)
+- Ingress, scheduling, and backpressure in distributed systems
+
 **Databases & Infrastructure**  
 - PostgreSQL, Redis, SQLx, Diesel
-- AWS (Lambda, Dev/Deploy)
 - Docker / Docker Compose
 - IronBank container hardening
 
