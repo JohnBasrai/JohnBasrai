@@ -1,7 +1,7 @@
 # <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" alt="Rust" width="24" valign="middle" /> John Basrai
 
 **Senior Software Engineer**
-*Rust & C++ · Backend & Distributed Systems · Secure Execution · CI/CD*
+*Rust & C++ · Systems & Distributed Architectures · High-Performance Applications*
 
 ## About Me
 
