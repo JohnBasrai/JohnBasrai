@@ -5,15 +5,15 @@
 
 ## About Me
 
-Senior systems engineer with **15+ years of experience** building backend and distributed systems, currently focused on **Rust** for authentication infrastructure and secure, high-assurance services. I care deeply about architectural clarity, explicit boundaries, and automated testing.
+Senior systems engineer with **15+ years of experience** building backend and distributed systems, currently focused on **Rust** for high-assurance services spanning networking protocols, edge coordination, and authentication infrastructure. I care deeply about architectural clarity, explicit boundaries, and automated testing.
 
 * 🌍 Yuba City, CA
 * 🤝 Open to Rust-focused backend and distributed systems work
 
 ### Current Focus
 
-- **[tokn](https://github.com/JohnBasrai/tokn)** — OAuth2/OIDC/JWT authorization server in Rust, implementing RFC 6749/7636 with automated protocol testing (PKCE, token rotation, scope enforcement).
-- **[rtp-opus-streamer](https://github.com/JohnBasrai/rtp-opus-streamer)** — real-time audio streaming system in Rust using RTP (RFC 3550) and Opus (RFC 6716), exploring resilience, observability, and behavior under network constraints.
+- **[quelay](https://github.com/JohnBasrai/quelay)** — QUIC-based stream relay daemon in Rust for satellite and high-latency link environments. Implements priority scheduling via Deficit Round Robin, wire-level bandwidth enforcement, and lossless stream recovery. Validates BBR congestion control as a 4–5× throughput improvement over NewReno on degraded BLOS links.
+- **[mom-rpc](https://github.com/JohnBasrai/mom-rpc)** — published Rust crate providing RPC over message-oriented middleware (AMQP, DDS, MQTT). Decouples application logic from broker mechanics while preserving explicit control over reliability, routing, and feature composition.
 
 ## 📌 Writing & Talks
 
@@ -22,18 +22,19 @@ Senior systems engineer with **15+ years of experience** building backend and di
 
 ---
 
-## 🔐 Project Spotlight — tokn
+## 🛰️ Project Spotlight — quelay
 
-OAuth2/OIDC authorization server in Rust with PKCE, refresh token rotation, and automated security testing.
+QUIC-based stream relay daemon written in Rust, designed for satellite and high-latency link environments.
 
 **Highlights**
-- RFC-compliant OAuth2 server with PostgreSQL persistence
-- JWT lifecycle management (RFC 7519)
-- Redis-backed token revocation and replay protection
-- 10 automated integration tests covering security edge cases
-- Clean architecture using EMBP and trait-based abstractions
+- Priority scheduling via Deficit Round Robin with wire-level bandwidth enforcement
+- Lossless stream recovery across link outages using a three-pointer spool buffer
+- Retransmit accounting for accurate bandwidth allocation under degraded conditions
+- Validates BBR as a 4–5× throughput improvement over NewReno (750 ms RTT, 5% packet loss)
+- Maintains configured bandwidth allocation within ±3% under impairment
+- Docker-based link simulation harness using `tc netem` for reproducible satellite testing
 
-**Stack**: Axum, PostgreSQL (SQLx), Redis, Argon2id, Docker Compose
+**Stack**: Rust, QUIC, Docker, `tc netem`
 
 ---
 
@@ -41,18 +42,21 @@ OAuth2/OIDC authorization server in Rust with PKCE, refresh token rotation, and 
 
 | Repo | Focus |
 | ---- | ----- |
-| **axum-quickstart** | Async REST APIs in Rust with WebAuthn/Passkeys, PostgreSQL, Redis, Prometheus |
-| **cr8s** | Rocket backend with JWT auth, role-based access, SQLx migrations, full integration testing |
-| **zkp-cp** | Chaum–Pedersen zero-knowledge proofs in Rust (gRPC, tonic) |
-| **mempool-vortex** | Ethereum mempool monitoring and latency analysis in Rust |
+| **[rust-edge-agent](https://github.com/JohnBasrai/rust-edge-agent)** | Embedded Linux edge agent: ARM64 cross-compilation, MQTT coordination via mom-rpc, reproducible CI |
+| **[tokn](https://github.com/JohnBasrai/tokn)** | OAuth2/OIDC/JWT authorization server — RFC 6749/7519, token rotation, PostgreSQL, 10 security tests |
+| **[axum-quickstart](https://github.com/JohnBasrai/axum-quickstart)** | Async REST APIs in Rust with WebAuthn/Passkeys, PostgreSQL, Redis, Prometheus |
+| **[zkp-cp](https://github.com/JohnBasrai/zkp-cp)** | Chaum–Pedersen zero-knowledge proofs in Rust (gRPC, tonic) |
+| **[cr8s](https://github.com/JohnBasrai/cr8s)** | Rocket backend with JWT auth, role-based access, SQLx migrations, full integration testing |
+| **[mempool-vortex](https://github.com/JohnBasrai/mempool-vortex)** | Ethereum mempool monitoring and latency analysis in Rust |
 
 ---
 
 ## 🛠️ Technical Focus
 
 **Systems & Architecture**
+- High-latency and satellite link protocols (QUIC, BBR, RTP)
 - Secure sandboxed execution (Linux namespaces, cgroups v2)
-- User-facing ingress, scheduling, and backpressure
+- Message-oriented middleware and edge coordination (MQTT, AMQP, DDS)
 - Explicit control/data-plane separation
 
 **Languages & Runtime**
@@ -79,9 +83,9 @@ A documented Rust pattern for enforcing architectural boundaries while preservin
 
 ---
 
-## 🤝 Let’s Connect
+## 🤝 Let's Connect
 
-If you’re hiring for backend, distributed systems, or Rust-focused roles, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnbasrai/) or here on GitHub.
+If you're hiring for backend, distributed systems, or Rust-focused roles, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/johnbasrai/) or here on GitHub.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnbasrai/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/JohnBasrai)
